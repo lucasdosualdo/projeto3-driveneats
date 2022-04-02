@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    background-color: none;
+    color: inherit;
+}
+
+h3 {
+    font-family: 'righteous';
+    font-size: 44px;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'roboto';
+    font-size: 20px;
+    color: white;
+}
+
+h5 {
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 26px;
+    color: #333333;
+}
+
+h6 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+
+body {
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.topo {
+    background-color: #CF2B2B;
+    height: 92px;
+    width: 100%;
+    color: white;
+    padding: 8px 0 18px 21px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.topo p {
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 92px;
+    padding: 31px 19px 81px 19px;
+}
+
+.container > div {
+    
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.menus {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    width: 172px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 18px 14px 16px 14px;
+    margin: 17px 16px 27px 0;
+}
+
+.menus div {
+    display: flex;
+    justify-content: center;
+}
+
+.menus img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.detalhes {
+    color: #A6A6A6;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.preço {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.base {
+    height: 92px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px 25px;
+}
+
+.pedido {
+    background-color: #CBCBCB;
+    font-weight: 400;
+    border-radius: 50px;
+    width: 364px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+}
+
+
+
