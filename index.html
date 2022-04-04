@@ -19,17 +19,24 @@
 
         <div>
             
-            <div class="menus">
+            <div onclick = "selecionar(this)" class="menus">
                 <div><img src="images/frango-ying-yang.jpg" /></div>
                 <h6>Frango Ying Yang</h6>
                 <p class="detalhes">Um pouco de batata, um pouco de salada</p>
-                <p class="preço">R$ 14,90</p>
+                <div>
+                    <p class="preço">R$ 14,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
             </div>
             <div class="menus">
                <div><img src="images/bife-a-parmegiana.jpg" /></div>
                 <h6>Bife à Parmegiana</h6>
                 <p class="detalhes">Filé mignon com muito queijo derretido</p>
-                <p class="preço">R$ 22,90</p>
+                
+                <div>
+                    <p class="preço">R$ 22,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
             </div>
             <div class="menus">
                <div><img src="images/picanha.jfif" /></div>
@@ -45,6 +52,8 @@
             </div>
             
         </div>
+
+       
 
         <h5>Agora, sua bebida</h5>
 
@@ -115,6 +124,7 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="scripts.js"></script>
 </body>
 </html>
